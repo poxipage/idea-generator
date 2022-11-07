@@ -16,7 +16,8 @@
     "Create a page to keep track of your daily tasks, reminders and short/long term goals",
     "Make a page to keep track of new ideas and inspire creativity",
     "Make a page for planning a trip you want to go on",
-
+    "Make a page showing links to your favorite wesites",
+    "Create a page displaying your favorite custom apps",
   ]
 
   let idea = ""
@@ -32,7 +33,7 @@
 
 <div class="w-full h-full text-base-content justify-center">
   <p> {idea} </p>
-  <button class="btn mt-5" on:click={getNewIdea}>New idea</button>
+  <button class="btn btn-primary border-2 border-primary-content mt-5" on:click={getNewIdea}>New idea</button>
 </div>
 
 <style>
